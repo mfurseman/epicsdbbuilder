@@ -37,7 +37,7 @@ _FunctionList = (
     ('dbGetFieldName',      c_char_p, auto_decode, (c_void_p,)),
     ('dbGetPrompt',         c_char_p, auto_decode, (c_void_p,)),
     ('dbGetPromptGroup',    c_int, None, (c_void_p,)),
-    ('dbGetFieldType',      c_int, None, (c_void_p,)),
+    ('dbGetFieldTypeString',c_char_p, auto_decode, (c_void_p,)),
     ('dbGetNMenuChoices',   c_int, None, (c_void_p,)),
     ('dbGetMenuChoices',    c_void_p, None, (c_void_p,)),
     ('dbNextField',         c_int, None, (c_void_p,)),

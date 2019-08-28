@@ -52,7 +52,7 @@ class ValidateDbField:
 
     def __ProcessFieldInfo(self, name):
         desc = mydbstatic.dbGetPrompt(self.dbEntry)
-        typ = mydbstatic.dbGetFieldType(self.dbEntry)
+        typ = mydbstatic.dbGetFieldTypeString(self.dbEntry)
         group = mydbstatic.dbGetPromptGroup(self.dbEntry)
 
         n_choices = mydbstatic.dbGetNMenuChoices(self.dbEntry)
